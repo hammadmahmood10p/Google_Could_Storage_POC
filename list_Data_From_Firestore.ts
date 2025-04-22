@@ -2,7 +2,7 @@ import { Firestore } from "@google-cloud/firestore";
 
 // Explicitly define Firestore connection with credentials
 const firestore = new Firestore({
-  projectId: "stellar-day-451912-v6", // Replace with your actual GCP project ID
+  projectId: "<your project id>", // Replace with your actual GCP project ID
   keyFilename: "D:/Shiftmed_Automation-main/gcp-key.json"
 });
 
